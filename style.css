@@ -85,6 +85,7 @@ a{
   flex-direction: column;
   align-items:flex-start;
   gap: 7px;
+  margin-right: 50px;
 }
 
 .title{
@@ -95,7 +96,8 @@ a{
   text-align: justify;
 }
 
-.sign-up{
+.sign-up,
+.sign-up3{
   background-color: rgba(19, 19, 207, 0.74);
   color: #F9FAF8;
   border-radius: 5px;
@@ -136,8 +138,10 @@ main{
 
 .container{
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   gap: 20px;
-  justify-content: space-evenly;
 }
 
 .info{
@@ -165,6 +169,7 @@ img{
   padding: 50px 0px;
   justify-content: center;
 }
+
 .cont-block2{
   display: flex;
   flex-direction: column;
@@ -172,6 +177,7 @@ img{
   gap: 5px;
   width: 60vmax;
 }
+
 .quote{
   font-size: 3rem;
   text-align: justify;
@@ -182,4 +188,39 @@ img{
 .autor{
   font-weight: bold;
   font-size: 1.5rem;
+}
+
+.block3{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.cont-block3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 600px;
+  background-color: rgba(49, 177, 194, 0.781);
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.subtitle3{
+  font-size: 1.7rem; 
+  color: #1F2937;
+  font-weight: bold;
+}
+
+.text3{
+  font-size: 1.3rem;
+  color: #1F2937;
+}
+
+.sign-up3{
+  margin-left: 25px;
+  border: 1px solid whitesmoke;
 }
