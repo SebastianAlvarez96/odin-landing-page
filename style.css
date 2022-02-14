@@ -147,7 +147,7 @@ main{
   justify-content: center;
   align-items: center;
   padding: 50px;
-  background-image: url("../images/xiao.jpg");
+  background-image: url("images/xiao.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -232,7 +232,7 @@ main{
   justify-content: center;
   align-items: center;
   padding: 50px;
-  background-image: url("../images/chica.jpg");
+  background-image: url("images/chica.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
