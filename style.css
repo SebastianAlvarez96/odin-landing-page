@@ -1,5 +1,5 @@
 *{
-  border: 2px solid red;
+  border: 0px solid red;
 }
 
 html{
@@ -22,8 +22,7 @@ footer{
 
 header{
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
+  flex-direction: column;
   padding: 10px;
   gap: 25px;
 }
@@ -45,6 +44,12 @@ ul{
 a{
   color: #E5E7EB;
   text-decoration: none;
+}
+
+.head{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 .logo{
@@ -71,16 +76,15 @@ a{
 .head-content{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  
 }
 
 .content-text{
   display: flex;
   flex-direction: column;
   align-items:flex-start;
-  padding: 15px;
+  gap: 7px;
 }
 
 .title{
@@ -88,32 +92,24 @@ a{
   width: 35vmax;
   color: #F9FAF8;
   font-weight: bolder;
-  margin-left: 150px;
   text-align: justify;
 }
 
 .sign-up{
   background-color: rgba(19, 19, 207, 0.74);
   color: #F9FAF8;
-  margin-left: 150px;
   border-radius: 5px;
 }
 
 .text{
   display: flex;
-  width: 25vmax;
-  padding: 0.25rem;
+  width: 35vmax;
   font-size: calc(1rem + 6px);
   color: #E5E7EB;
-  margin-left: 150px;
   text-align: justify;
 }
 
 .head-image{
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  margin-left: 150px;
   width: 400px;
 }
 
@@ -125,9 +121,42 @@ main{
 
 .block1{
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 50px;
+}
+
+.subtitle{
+  font-size: 3rem;
+  font-weight: bolder;
+  color: #1F2937;
+  margin-bottom: 20px;
+}
+
+.container{
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 25px;
+}
+
+img{
+  border: 1px solid blue;
+  border-radius: 5px;
+  width: 200px;
+  height: 200px;
+}
+
+.text-info{
+  text-align: center;
+  font-size: 1.3rem;
 }
 
 .block2{
